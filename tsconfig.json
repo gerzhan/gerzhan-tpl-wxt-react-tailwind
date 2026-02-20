@@ -1,0 +1,19 @@
+{
+  "extends": "./.wxt/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ], // or "./src/*" if using src directory
+    },
+    "lib": ["DOM", "ESNext", "WebWorker"],
+    "allowImportingTsExtensions": true,
+    "jsx": "react-jsx"
+  },
+
+  "exclude": [
+    "../dist",
+    "node_modules"
+  ]
+}
