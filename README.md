@@ -6,7 +6,7 @@
 
 - ✅ **Wxt**: [Wxt](https://wxt.dev)
 - ✅ **React**: [React](https://react.dev/)
-- ✅ **Tailwind CSS**: [Tailwind CSS](https://tailwindcss.com)
+- ✅ **Tailwind CSS v4**: [Tailwind CSS](https://tailwindcss.com)
   - [@tailwindcss/vite](https://www.npmjs.com/package/@tailwindcss/vite?activeTab=readme)
 
 ## Project Structure
