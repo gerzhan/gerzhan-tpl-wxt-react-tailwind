@@ -1,7 +1,7 @@
 import {defineConfig} from 'wxt';
 import path from 'path';
 import tailwindcss from "@tailwindcss/vite";
-
+import pkg from "./package.json";
 // See https://wxt.dev/api/config.html
 export default defineConfig({
   vite: () => ({
@@ -20,7 +20,7 @@ export default defineConfig({
   },
   "manifest": {
     "author": "nikolay.gerzhan@gmail.com",
-    "version": "0.0.1",
+    "version": pkg.version,
     web_accessible_resources: [
       {
         resources: ["injected.js"],
