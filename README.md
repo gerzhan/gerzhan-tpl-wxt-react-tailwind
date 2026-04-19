@@ -8,6 +8,7 @@
 - ✅ **React**: [React](https://react.dev/)
 - ✅ **Tailwind CSS v4**: [Tailwind CSS](https://tailwindcss.com)
   - [@tailwindcss/vite](https://www.npmjs.com/package/@tailwindcss/vite?activeTab=readme)
+- ✅ **json-server**
 
 ## Project Structure
 
@@ -38,3 +39,12 @@
 
 - [Manifest - Icons](https://developer.chrome.com/docs/extensions/reference/manifest/icons)
 -  **Icons Generator** - [alexleybourne.github.io/chrome-extension-icon-generator/](https://alexleybourne.github.io/chrome-extension-icon-generator/)
+
+## Development
+
+### Start mock server api
+
+```bash
+# запуск mock api и development html page
+$make mock_server
+```
