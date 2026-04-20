@@ -9,6 +9,7 @@
 - ✅ **Tailwind CSS v4**: [Tailwind CSS](https://tailwindcss.com)
   - [@tailwindcss/vite](https://www.npmjs.com/package/@tailwindcss/vite?activeTab=readme)
 - ✅ **json-server**
+- ✅ **Prittier**
 
 ## Project Structure
 
@@ -47,4 +48,12 @@
 ```bash
 # запуск mock api и development html page
 $make mock_server
+```
+
+## Форматированиие кода
+
+```bash
+$make format
+# или
+$pnpm run format:write
 ```

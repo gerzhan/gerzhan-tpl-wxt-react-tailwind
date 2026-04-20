@@ -24,3 +24,6 @@ mock_server: ## mock_server - run local http server for /public and mocks data b
 
 dev: ## dev - run development
 	$(RUN_NPM_COMMAND) dev
+
+format: ## format - форматировать код с помощью Prettier
+	$(RUN_NPM_COMMAND) format:write

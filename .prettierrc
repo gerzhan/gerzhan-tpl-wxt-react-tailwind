@@ -1,0 +1,58 @@
+{
+  "singleQuote": true,
+  "useTabs": false,
+  "trailingComma": "all",
+  "semi": true,
+  "printWidth": 80,
+  "singleAttributePerLine": true,
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": false,
+  "arrowParens": "avoid",
+  "htmlWhitespaceSensitivity": "ignore",
+  "plugins": [
+    "prettier-plugin-organize-imports",
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+  "importOrder": [
+    "^(react/(.*)$)|^(react$)",
+    "^(next/(.*)$)|^(next$)",
+    "",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "<BUILTIN_MODULES>",
+    "^(@|~)domain/(.*)$",
+    "^(@|~)app/(.*)$",
+    "^(@|~)infra/(.*)$",
+    "",
+    "^types$",
+    "^@/types/(.*)$",
+    "^@/config/(.*)$",
+    "^@/lib/(.*)$",
+    "^@/hooks/(.*)$",
+    "^@/components/ui/(.*)$",
+    "^@/components/(.*)$",
+    "^@/registry/(.*)$",
+    "^@/styles/(.*)$",
+    "",
+    "^(@|~)gerzhan/(.*)$",
+    "^@/app/(.*)$",
+    "^(@|~)/path/to/internal/modules(.*)$",
+    "",
+    "^[./]",
+    "^(?!.*[.]tsx$)[./].*$",
+    "^(?!.*[.]css$)[./].*$",
+    ".css$"
+  ],
+  "organizeImportsSkipDestructiveCodeActions": true,
+  "overrides": [
+    {
+      "files": [
+        "*.tsx"
+      ],
+      "options": {
+        "singleAttributePerLine": true
+      }
+    }
+  ]
+}
